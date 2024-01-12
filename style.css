@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: 1000px;
+    padding: 100px 0;
+    margin: 0 auto;
+    border: 4px solid blue;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 2.6rem;
+}
+
+a {
+    display: block;
+    width: fit-content;
+    border: 2px solid #fff;
+    /* padding: 10px 20px; */
+    margin: 20px auto 0;
+    font-size: 2.6rem;
+}
+
+/*Mobile version*/
